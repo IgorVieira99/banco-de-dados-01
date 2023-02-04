@@ -1,5 +1,5 @@
-### Banco de dados Resilia
-## Projeto individual correspondente ao 4º módulo (banco de dados) do curso de programação da Resilia
+# Banco de dados Resilia
+### Projeto individual correspondente ao 4º módulo (banco de dados) do curso de programação da Resilia
 
 O projeto apresenta um esquema lógico considerando três entidades e seus devidos campos.
 Em tese, deveria existir uma entidade "acima" das três a serem listadas, a empresa Resilia, porém como o objetivo do projeto focava nessas três, somente estes foram considerados ao realizar o trabalho. 
@@ -22,14 +22,14 @@ Em tese, deveria existir uma entidade "acima" das três a serem listadas, a empr
 - email (varchar): considera o email dos alunos cadastrados; 
 - endereco (varchar): considera o endereço onde reside o aluno. 
 ______________________________________________________________________
-# Cardinalidade entre as entidades:
+##### Cardinalidade entre as entidades:
 
 A relação entre Curso e Turma se dá em 0, n e 0, 1, respectivamente, pois um curso pode ter muitas turmas, porém a turma pertence unicamente a este curso. 
 
 A relação entre Turma e Alunos se dá em 0, n e 0,1, respectivamente, pois uma turma pode ter muitos alunos, porém os alunos pertencem somente a uma turma. 
 
 ______________________________________________________________________
-# Códigos SQL utilizados para criação do banco de dados: 
+##### Códigos SQL utilizados para criação do banco de dados: 
 
 **Para criar o banco de dados resilia:**
 MariaDB [(none)]> create database resilia;
