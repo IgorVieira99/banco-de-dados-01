@@ -58,6 +58,16 @@ MariaDB [resilia]> create table alunos (
     -> telefone varchar(15),
     -> email varchar(99),
     -> endereco varchar(99));
+    
+**Para inserir os registros**
+**Curso:** 
+MariaDB [resilia]> insert into curso (id, carga, area, uc) values (01, 60, 'Front-End', 'HTML e CSS'), (02, 100, 'React', 'Javascript');
+
+**Turma:**
+MariaDB [resilia]> insert into turma (id, sala, professor, dias) values (01, 402, 'Leandro Pisco', 'Seg, Qua, Sex'), (02, 407, 'Patrícia', 'Ter e Qui'); 
+
+**Alunos:**
+MariaDB [resilia]> insert into alunos (id, telefone, email, endereco) values (01, '021970404925', 'zezinho123@gmail.com', 'Rua dos Bobos, nº 0'), (02, '02124732366', 'mariazinha456@hotmail.com', 'Rua Parnaíba, nº 141');
 
 **Para visualizar a entidade:**
 MariaDB [resilia]> show tables;
