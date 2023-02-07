@@ -5,19 +5,19 @@ O projeto apresenta um esquema lógico considerando três entidades e seus devid
 Em tese, deveria existir uma entidade "acima" das três a serem listadas, a empresa Resilia, porém como o objetivo do projeto focava nessas três, somente estes foram considerados ao realizar o trabalho. 
 
 **A entidade Curso apresenta os campos:** 
-- id (int): o número de identificação do campo; 
+- id (int)primary key: o número de identificação do campo; 
 - carga (int): este campo considera a carga horária total do curso; 
 - área (varchar): considera a área que o curso pertence (humanas, exatas, etc); 
 - uc (varchar): considera as unidades curriculares dos cursos cadastrados. 
 
 **A entidade Turma considera os campos:** 
-- id (int): o número de identificação do campo;
+- id (int) primary key: o número de identificação do campo;
 - sala (int): considera o número das salas de aula de cada turma; 
 - professor (varchar): considera os nomes dos professores de cada turma; 
 - dias varchar): considera os dias de aula de cada turma.
 
 **A entidade Alunos considera os campos:** 
-- id (int): o número de identificação do campo;
+- id (int) primary key: o número de identificação do campo;
 - telefone (varchar): considera o telefone de contato dos alunos;
 - email (varchar): considera o email dos alunos cadastrados; 
 - endereco (varchar): considera o endereço onde reside o aluno. 
